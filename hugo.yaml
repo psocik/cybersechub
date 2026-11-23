@@ -40,9 +40,9 @@ params:
     github: "psocik"
     linkedin: "psocik"
   #services
-services:
-  googleAnalytics:
-    ID: "G-TKFC71T8WB"
+  services:
+    googleAnalytics:
+      ID: "G-TKFC71T8WB"
 
 # Ensure private research repo is never published
 ignoreFiles:

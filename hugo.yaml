@@ -20,14 +20,14 @@ taxonomies:
   series: series
 
 params:
-  description: "Cyber Security HUB"
+  description: "the latest cybersecurity news, ransomware trends, data leaks, and critical vulnerability disclosures."
   copyright: "CSH"
-  author: "psociksec"
+  author: "Cyber Security HUB"
   opengraph: true
   lastmod: true
-  #favicon: "/img/github-mark.png"
-  #avatar: "/img/img.png"
-  #headerIcon: "/img/github-mark-white.png"
+  favicon: "/img/fav.png"
+  avatar: "/img/img.png"
+  headerIcon: "/img/header.png"
   location: "Poland"
   userStatusEmoji: "🛡️" #flere her: 😪 sleepy face , 😁 beeming , 💤 sleepy , 🛡️ shield
   mermaid: true

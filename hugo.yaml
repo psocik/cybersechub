@@ -1,4 +1,4 @@
-baseurl: "https://psociksec.github.io"
+baseurl: "https://hub.ictsec.pl"
 languageCode: "en-us"
 title: "Cyber Security Hub"
 theme: "github-style"
@@ -21,7 +21,7 @@ taxonomies:
 
 params:
   description: "Cyber Security HUB"
-  copyright: "psociksec"
+  copyright: "CSH"
   author: "psociksec"
   opengraph: true
   lastmod: true
@@ -37,12 +37,12 @@ params:
   rssLimit: 20  # Number of items in RSS feed
   # Social links
   social:
-    github: "psociksec"
+    github: "psocik"
     linkedin: "psocik"
   #services
-#services:
-  #googleAnalytics:
-    #ID: "G-"
+services:
+  googleAnalytics:
+    ID: "G-TKFC71T8WB"
 
 # Ensure private research repo is never published
 ignoreFiles:

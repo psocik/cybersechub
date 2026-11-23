@@ -20,15 +20,15 @@ taxonomies:
   series: series
 
 params:
-  description: "Cyber Security hub"
+  description: "Cyber Security HUB"
   copyright: "psociksec"
   author: "psociksec"
   opengraph: true
   lastmod: true
-  favicon: "/img/github-mark.png"
-  avatar: "/img/avatarcloudazure.png"
-  headerIcon: "/img/github-mark-white.png"
-  location: "Norway"
+  #favicon: "/img/github-mark.png"
+  #avatar: "/img/img.png"
+  #headerIcon: "/img/github-mark-white.png"
+  location: "Poland"
   userStatusEmoji: "🛡️" #flere her: 😪 sleepy face , 😁 beeming , 💤 sleepy , 🛡️ shield
   mermaid: true
   custom_css:

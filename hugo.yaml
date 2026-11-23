@@ -1,0 +1,51 @@
+baseurl: "https://psociksec.github.io"
+languageCode: "en-us"
+title: "Cloud Securityblog"
+theme: "github-style"
+pygmentsCodeFences: true
+pygmentsUseClasses: true
+enableEmoji: true
+
+# RSS Feed Configuration
+outputs:
+  home:
+    - HTML
+    - RSS
+  section:
+    - HTML
+    - RSS
+
+taxonomies:
+  tag: tags
+  series: series
+
+params:
+  description: "Cloud Security blog"
+  copyright: "Anders Kristiansen"
+  author: "Anders Kristiansen"
+  opengraph: true
+  lastmod: true
+  favicon: "/img/github-mark.png"
+  avatar: "/img/avatarcloudazure.png"
+  headerIcon: "/img/github-mark-white.png"
+  location: "Norway"
+  userStatusEmoji: "🛡️" #flere her: 😪 sleepy face , 😁 beeming , 💤 sleepy , 🛡️s hield
+  mermaid: true
+  custom_css:
+  - "/css/custom-width.css"
+  # RSS Feed Configuration
+  rssLimit: 20  # Number of items in RSS feed
+  # Social links
+  social:
+    github: "anders-kristiansen"
+    linkedin: "akristiansendotcom"
+    bluesky: "anderskristiansen.bsky.social"
+  #services
+services:
+  googleAnalytics:
+    ID: "G-DRSS5P3F7Y"
+
+# Ensure private research repo is never published
+ignoreFiles:
+- "^research/"
+- "/_notes/"
